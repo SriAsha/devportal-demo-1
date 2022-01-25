@@ -1,7 +1,7 @@
-meta:
-  title: Redocly Training
-  description: The best API documentation generator ever.
-  siteUrl: https://developer-portal-starter.redoc.ly
+seo:
+  title: Rocket Lawyer Developer Center
+  description: Find APIs for custom, embedded end-to-end legal workflows.
+  siteUrl: https://demo-dev-portal.redoc.ly/
   keywords: redocly developer portal, api portal starter, api reference docs
   lang: en-US
 linkChecker:
