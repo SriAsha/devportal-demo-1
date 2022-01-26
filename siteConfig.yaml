@@ -1,8 +1,7 @@
-seo:
-  title: Rocket Lawyer Demo Developer Center
-  description: Find APIs for custom, embedded end-to-end legal workflows.
-  siteUrl: https://demo-dev-portal.redoc.ly/
-  lang: en-US
+meta:
+  title: Rocket Laywer Developer Center
+  description: The best API documentation generator ever.
+  siteUrl: https://portal-demo.redoc.ly
 linkChecker:
   severity: warning
   options:
@@ -21,8 +20,9 @@ login:
   menu:
     - label: Sign out
       logout: true
-      link: 'https://demo-idp.ip.cicdv2.dev.rktlyr.com/auth/realms/rldevcenter/logout?client_id=136bd39e-68f3-49b2-b02c-6aa8694e1a28&returnTo=https%3A%2F%2Fdemo-dev-portal.redoc.ly'
-toc:
+      #link: 'https://your_domain/v2/logout?client_id=YOUR_CLIENT_ID&returnTo=LOGOUT_URL'
+      #link: 'https://demo-idp.ip.cicdv2.dev.rktlyr.com/auth/realms/rldevcenter/protocol/openid-connect/logout?client_id=136bd39e-68f3-49b2-b02c-6aa8694e1a28&returnTo=https%3A%2F%2Fdemo-dev-portal.redoc.ly'
+# toc:         
   enable: true
 oasDefinitions:
   petstore: ./openapi/petstore.yaml
@@ -40,10 +40,6 @@ nav:
 
   - label: Training exercises
     page: developer-portal/index.md
-
-  - label: External docs
-    icon: ./images/redocly-icon-white.png
-    href: https://redoc.ly/docs/developer-portal/introduction/
 
   - search: true
 

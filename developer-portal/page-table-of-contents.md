@@ -1,3 +1,8 @@
+---
+toc:
+  enable: false
+---
+
 # Page table of contents
 
 
