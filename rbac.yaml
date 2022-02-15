@@ -1,0 +1,5 @@
+
+roles:
+  Owner:
+    permissions:
+      - access-internal-pages
