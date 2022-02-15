@@ -1,5 +1,5 @@
 
 roles:
-  Owner:
+  admin:
     permissions:
       - access-internal-pages
